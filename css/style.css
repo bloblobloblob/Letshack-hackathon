@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F8FD;
+    font-family: 'Inter';
+    text-decoration: none;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important
+}
+
+/* header */
+header {
+    width: 290px;
+    background-color: #FFFFFF;
+    box-shadow: -4px 0px 0px 0px #7C8DB026 inset;
+    height: 100vh;
+    padding-right: 4px;
+    padding-top: 43px;
+    padding-left: 20px;
+}
+
+header a p {
+    color: #7C8DB0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+}
+
+.user-info {
+    display: flex;
+    height: 122px;
+    border-bottom: 2px solid #7C8DB026;
+    padding-bottom: 36px;
+    gap: 24px;
+}
+
+.user-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-info-text p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: left;
+}
+
+.user-info-text a {
+    display: flex;
+}
+
+.user-info-text a p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.user-info img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+img.link-icon {
+    width: 24px;
+    height: 24px;
+}
+/* header */
+
+/* main */
+h1 {
+    font-size: 40px;
+    font-weight: 700 !important;
+    line-height: 50px;
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+main {
+    padding-top: 64px;
+    padding-left: 20px;
+}
+/* main */
