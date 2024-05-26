@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #F4F8FD;
+    background-color: #F4F8FD !important;
     font-family: 'Inter';
     text-decoration: none;
     display: flex;
@@ -17,22 +17,34 @@ ul {
 }
 
 /* header */
+.advert-logo img{
+    margin: 0 70px;
+}
+
 header {
-    width: 290px;
+    min-width: 290px;
+    max-width: 290px;
     background-color: #FFFFFF;
     box-shadow: -4px 0px 0px 0px #7C8DB026 inset;
     height: 100vh;
     padding-right: 4px;
     padding-top: 43px;
-    padding-left: 20px;
+}
+
+header a img {
+    margin: auto 0;
+    margin-right: 10px;
 }
 
 header a p {
     color: #7C8DB0;
     font-size: 16px;
     font-weight: 500;
-    line-height: 19.2px;
+    line-height: 24px;
     text-align: left;
+    margin-bottom: 0;
+    height: 24px;
+    margin: auto 0;
 }
 
 .user-info {
@@ -41,6 +53,7 @@ header a p {
     border-bottom: 2px solid #7C8DB026;
     padding-bottom: 36px;
     gap: 24px;
+    padding-left: 20px;
 }
 
 .user-info-text {
@@ -65,7 +78,6 @@ header a p {
     font-weight: 500;
     line-height: 19.2px;
     text-align: left;
-    margin-left: 10px;
 }
 
 .user-info img {
@@ -77,6 +89,36 @@ header a p {
 img.link-icon {
     width: 24px;
     height: 24px;
+}
+
+.site-nav li a{
+    height: 52px;
+    transition: all .2s linear;
+    margin-left: 20px;
+}
+
+.site-nav li:hover {
+    background-color: #F4F8FD;
+}
+
+#notifications {
+    height: 52px;
+    margin-left: 20px;
+}
+
+.notifications-wrapper {
+    border-bottom: 2px solid;
+    border-color: #7C8DB026;
+    margin-bottom: 30px;
+}
+
+#notifications img, #notifications p{
+    margin: auto 0;
+}
+
+#faq {
+    margin-right: -4px;
+    border-right: 4px solid #00A3FF
 }
 /* header */
 
@@ -92,5 +134,10 @@ h1 {
 main {
     padding-top: 64px;
     padding-left: 20px;
+}
+
+button.dropdown-toggle {
+    background-color: #FFFFFF;
+    border: 0;
 }
 /* main */
