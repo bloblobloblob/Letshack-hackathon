@@ -19,6 +19,7 @@ ul {
 /* header */
 .advert-logo img{
     margin: 0 70px;
+    margin-top: 26px;
 }
 
 header {
@@ -67,10 +68,12 @@ header a p {
     font-weight: 700;
     line-height: 19.2px;
     text-align: left;
+    cursor: default;
 }
 
 .user-info-text a {
     display: flex;
+    cursor: pointer;
 }
 
 .user-info-text a p {
@@ -78,6 +81,7 @@ header a p {
     font-weight: 500;
     line-height: 19.2px;
     text-align: left;
+    cursor: pointer;
 }
 
 .user-info img {
@@ -128,16 +132,36 @@ h1 {
     font-weight: 700 !important;
     line-height: 50px;
     text-align: left;
-    margin-bottom: 45px;
+    margin-bottom: 45px !important;
+    cursor: default;
 }
 
 main {
     padding-top: 64px;
     padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.dropdown-menu {
+    position: relative !important;
+    transform: none !important;
+    margin-bottom: 20px !important;
+    background-color: #F4F8FD;
+    border: 0;
 }
 
 button.dropdown-toggle {
     background-color: #FFFFFF;
     border: 0;
+    width: 100%;
+    height: 92px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 /* main */
