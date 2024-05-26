@@ -23,6 +23,7 @@ ul {
 }
 
 header {
+    position: fixed;
     min-width: 290px;
     max-width: 290px;
     background-color: #FFFFFF;
@@ -110,6 +111,10 @@ img.link-icon {
     margin-left: 20px;
 }
 
+#notifications p {
+    margin-left: 10px !important;
+}
+
 .notifications-wrapper {
     border-bottom: 2px solid;
     border-color: #7C8DB026;
@@ -124,6 +129,31 @@ img.link-icon {
     margin-right: -4px;
     border-right: 4px solid #00A3FF
 }
+
+#faq p {
+    font-weight: 700;
+    color: black;
+}
+
+#solutions *{
+    cursor: default !important;
+    transition: none;
+}
+
+#solutions *:hover {
+    background-color: white !important;
+}
+
+#solutions p{
+    color: #A1B0CCCC !important;
+}
+
+#solutions span {
+    border: 2px solid #7c8db067;
+    border-radius: 4px;
+    padding: 2px;
+    margin-left: 10px;
+}
 /* header */
 
 /* main */
@@ -137,6 +167,7 @@ h1 {
 }
 
 main {
+    margin-left: 290px;
     padding-top: 64px;
     padding-left: 20px;
     padding-right: 20px;
@@ -148,6 +179,10 @@ div.dropdown-menu {
     margin-bottom: 20px !important;
     background-color: #F4F8FD;
     border: 0;
+}
+
+div.dropdown-menu img {
+    border-radius: 10px;
 }
 
 button.dropdown-toggle {
@@ -163,5 +198,22 @@ button.dropdown-toggle {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-toggle p, .dropdown-toggle img{
+    margin: auto 0;
+}
+
+button.dropdown-toggle img{
+    transition: transform .1s ease-in;
+    transform: rotate(-90deg);
+}
+
+button.show img {
+    transform: rotate(0deg);
 }
 /* main */
